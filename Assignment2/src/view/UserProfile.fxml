@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ProfileController">
+   <children>
+      <Label layoutX="236.0" layoutY="43.0" text="Username" />
+      <Label fx:id="usernameID" layoutX="234.0" layoutY="74.0" prefHeight="21.0" prefWidth="299.0" />
+      <Label layoutX="234.0" layoutY="110.0" text="First Name" />
+      <Label layoutX="235.0" layoutY="169.0" text="Last Name" />
+      <Button fx:id="Okbtn" layoutX="239.0" layoutY="261.0" mnemonicParsing="false" text="Ok" />
+      <Button fx:id="CancelBtn" layoutX="308.0" layoutY="261.0" mnemonicParsing="false" text="Cancel" />
+      <Label fx:id="selectImage" layoutX="14.0" layoutY="211.0" onMouseClicked="#handleImage" prefHeight="21.0" prefWidth="191.0" text="Click to Select Profile Picture" textFill="#a9a8a8" />
+      <ImageView fx:id="ProfilePicture" fitHeight="172.0" fitWidth="191.0" layoutX="16.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true" />
+      <TextField fx:id="Firstname" layoutX="234.0" layoutY="138.0" prefHeight="25.0" prefWidth="299.0" />
+      <TextField fx:id="Lastname" layoutX="234.0" layoutY="195.0" prefHeight="25.0" prefWidth="299.0" />
+      <Label fx:id="message" alignment="CENTER" layoutX="270.0" layoutY="305.0" prefHeight="21.0" prefWidth="171.0" />
+   </children>
+</Pane>

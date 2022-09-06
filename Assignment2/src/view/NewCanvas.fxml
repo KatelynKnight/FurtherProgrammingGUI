@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="250.0" prefWidth="361.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.NewCanvasController">
+   <children>
+      <Label layoutX="66.0" layoutY="83.0" text="Width, px " />
+      <TextField fx:id="widthInput" layoutX="155.0" layoutY="79.0" prefHeight="26.0" prefWidth="174.0" promptText="Please enter the width" />
+      <Label layoutX="66.0" layoutY="134.0" text="Height, px " />
+      <TextField fx:id="heightInput" layoutX="155.0" layoutY="130.0" prefHeight="26.0" prefWidth="174.0" promptText="Please enter the height" />
+      <Button fx:id="cancelButton" layoutX="277.0" layoutY="210.0" mnemonicParsing="false" text="Cancel" />
+      <Button fx:id="okButton" layoutX="216.0" layoutY="210.0" mnemonicParsing="false" text="Ok" />
+      <Label fx:id="message" alignment="CENTER" layoutX="113.0" layoutY="34.0" prefHeight="21.0" prefWidth="143.0" />
+   </children>
+</Pane>
